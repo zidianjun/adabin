@@ -1,7 +1,7 @@
 # adabin
 Adaptive binning algorithm for 2D maps
 
-The core function is multi_order_bin() function in adabin.py. For display, simply run recon_plot() in map_plot.py.
+The core function is adap_bin() function in adabin.py. For display, simply run recon_plot() in map_plot.py.
 
 In order to recover as many spatial pixels as possible, we use an adaptive binning scheme. For independent, identically distributed data we expect the S/N of binned data to increase in proportion to the square root of the number of binned pixels. This increase is paid for by a corresponding decrease in spatial resolution, and thus we only want to bin pixels where we are required to do so for S/N reasons. We therefore carry out the following steps:
 
