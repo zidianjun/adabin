@@ -1,5 +1,5 @@
 
-from adabin import multi_order_bin, reconstruct_maps
+from adabin import adap_bin
 
 import numpy as np
 import matplotlib.pyplot as plt
