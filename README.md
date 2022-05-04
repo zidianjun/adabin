@@ -10,6 +10,7 @@ In order to recover as many spatial pixels as possible, we use an adaptive binni
 
 We illustrate this process in the figure below. The left panel shows the original data, with pixels below a S/N ratio of 3 masked. The middle panel shows the value N of the map_N for which the S/N reaches the target S/N of 3. As is clear from the figure, the algorithm uses high-resolution data in high S/N regions, and degrades smoothly to more and more binned data in regions of weak signal. The right panel then shows the final output, adaptively binned map. Again, we see that high-resolution information has been preserved where possible, but now none of the map area is masked.
 
-![image](https://github.com/zidianjun/adabin/files/8618420/recon_SN2011hb.pdf)
+![recon_SN2011hb](https://user-images.githubusercontent.com/25077804/166636783-e98767fb-9378-4dc0-b4b9-8d53509584ae.png)
+
 
 The details can be found in Li et al. (2022) in preparation.
