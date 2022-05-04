@@ -20,6 +20,29 @@ def _bin_map(matrix, factor):
 
 
 def multi_order_bin(signal, noise, min_SN=3):
+    '''
+    multi_order_bin(signal, noise, min=3)
+
+    Adaptive binning algorithm for 2D maps.
+        
+    Parameters
+    ----------
+    signal, noise: two-dimensinal np.array
+        The original signal and noise.
+
+    min_SN: float
+        The target S/N.
+    
+    Returns
+    -------
+    res_signal, res_noise: two-dimensinal np.array
+        The binned signal and noise.
+
+    maps: two-dimensinal np.array
+        In which map number each pixel is binned (with integer data type).
+        maps is one-to-one matched to signal.
+        Call reconstruct_maps(signal, noise, maps) to get res_signal, res_noise.
+    '''
     shape = signal.shape
     
     res_signal = signal.copy()
