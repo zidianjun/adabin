@@ -13,5 +13,3 @@ We illustrate this process in the figure below, taking the [SII]6731 map of NGC7
 ![recon_SN2011hb](https://user-images.githubusercontent.com/25077804/166636783-e98767fb-9378-4dc0-b4b9-8d53509584ae.png)
 
 The core function is multi_order_bin() function in adabin.py. For display, simply run recon_plot() in map_plot.py.
-
-The details can be found in Li et al. (2022) in preparation.
