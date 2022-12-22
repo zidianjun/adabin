@@ -27,7 +27,7 @@ def adap_bin(signal, noise, min_SN=3):
         
     Parameters
     ----------
-    signal, noise: two-dimensinal np.array
+    signal, noise: two-dimensional np.array
         The original signal and noise.
 
     min_SN: float
