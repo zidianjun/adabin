@@ -1,5 +1,5 @@
 # adabin
-Adaptive binning algorithm for 2D maps (please cite Li et al. [2023](https://ui.adsabs.harvard.edu/abs/2023MNRAS.518..286L/abstract)).
+Adaptive binning algorithm for 2D maps (Li et al. [2023](https://ui.adsabs.harvard.edu/abs/2023MNRAS.518..286L/abstract)).
 
 The core function is adap_bin() function in adabin.py. For display, simply run recon_plot() in map_plot.py.
 
